@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Henning-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -96,7 +97,7 @@ U 1 1 57E43564
 P 7900 3500
 F 0 "Q1" H 7900 3700 50  0000 C CNN
 F 1 "BD645" H 7700 3350 50  0000 C CNN
-F 2 "TO_SOT_Packages_THT:TO-220_Neutral123_Horizontal" H 7900 3450 50  0001 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Neutral123_Vertical" H 7900 3450 50  0001 C CNN
 F 3 "" H 7900 3450 50  0000 C CNN
 	1    7900 3500
 	1    0    0    1   
@@ -203,10 +204,6 @@ Wire Wire Line
 Wire Wire Line
 	9400 4000 7200 4000
 Connection ~ 9400 3800
-Wire Wire Line
-	6800 3700 6800 2900
-Wire Wire Line
-	6200 3400 6200 2900
 Connection ~ 6800 2900
 Wire Wire Line
 	6200 3700 6200 4000
@@ -226,7 +223,7 @@ TXD
 Text GLabel 3700 2800 0    60   Input ~ 0
 GND
 Wire Wire Line
-	3700 2400 3900 2400
+	3700 2400 5000 2400
 Wire Wire Line
 	3900 2400 3900 1250
 Wire Wire Line
@@ -436,7 +433,7 @@ U 1 1 57E45F11
 P 1900 2750
 F 0 "P1" H 1900 3000 50  0000 C CNN
 F 1 "RS232" V 2000 2750 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_1x04" H 1900 2750 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 1900 2750 50  0001 C CNN
 F 3 "" H 1900 2750 50  0000 C CNN
 	1    1900 2750
 	-1   0    0    1   
@@ -465,4 +462,20 @@ Wire Wire Line
 	2300 2800 2100 2800
 Wire Wire Line
 	2100 2900 2600 2900
+Wire Wire Line
+	6800 3700 6800 2900
+Wire Wire Line
+	6200 2900 8200 2900
+Wire Wire Line
+	6200 2900 6200 3400
+Wire Wire Line
+	5000 1400 5000 800 
+Wire Wire Line
+	5000 800  4300 800 
+Wire Wire Line
+	4300 800  4300 2800
+Connection ~ 4300 2800
+Wire Wire Line
+	5000 2400 5000 1800
+Connection ~ 3900 2400
 $EndSCHEMATC
