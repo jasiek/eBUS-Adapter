@@ -422,7 +422,7 @@ U 1 1 57E45DDB
 P 9200 5250
 F 0 "P2" H 9200 5400 50  0000 C CNN
 F 1 "EBUS" V 9300 5250 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 9200 5250 50  0001 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 9200 5250 50  0001 C CNN
 F 3 "" H 9200 5250 50  0000 C CNN
 	1    9200 5250
 	-1   0    0    1   
