@@ -49,7 +49,7 @@ U 1 1 57E4F43B
 P 1850 1150
 F 0 "P1" H 1850 1300 50  0000 C CNN
 F 1 "EBUS" V 1950 1150 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 1850 1150 50  0001 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 1850 1150 50  0001 C CNN
 F 3 "" H 1850 1150 50  0000 C CNN
 	1    1850 1150
 	0    -1   -1   0   
