@@ -2,10 +2,10 @@
 
   (general
     (links 27)
-    (no_connects 1)
+    (no_connects 0)
     (area 11.924999 11.775 52.375 50.075001)
     (thickness 1.6)
-    (drawings 4)
+    (drawings 5)
     (tracks 82)
     (zones 0)
     (modules 14)
@@ -599,6 +599,9 @@
     )
   )
 
+  (gr_text "eBUS\nAdapter" (at 18 20) (layer B.Cu)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
   (gr_line (start 12 50) (end 12 12) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 50 50) (end 12 50) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 50 12) (end 50 50) (angle 90) (layer Edge.Cuts) (width 0.15))
