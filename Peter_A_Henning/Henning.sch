@@ -43,9 +43,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 9700 2300 2    60   Input ~ 0
+Text GLabel 9550 1700 2    60   Input ~ 0
 EBUS1
-Text GLabel 9700 2700 2    60   Input ~ 0
+Text GLabel 9550 2550 2    60   Input ~ 0
 EBUS2
 $Comp
 L ZENER D5
@@ -86,7 +86,7 @@ U 1 1 57E4352D
 P 6800 3950
 F 0 "U3" H 6950 3754 50  0000 C CNN
 F 1 "78L05" H 6800 4150 50  0000 C CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Wide" H 6800 3950 50  0001 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Neutral123_Horizontal" H 6800 3950 50  0001 C CNN
 F 3 "" H 6800 3950 50  0000 C CNN
 	1    6800 3950
 	-1   0    0    1   
@@ -252,9 +252,9 @@ Wire Wire Line
 Wire Wire Line
 	4050 2100 4200 2100
 Wire Wire Line
-	4200 2600 4200 1600
+	4200 1600 4200 2600
 Wire Wire Line
-	3700 2600 4200 2600
+	4200 2600 3700 2600
 Connection ~ 4200 2100
 $Comp
 L 4011 U1
@@ -297,9 +297,9 @@ Wire Wire Line
 	5600 2800 7100 2800
 Connection ~ 4500 3000
 Wire Wire Line
-	5100 3900 4500 3900
+	4500 3900 5100 3900
 Wire Wire Line
-	4500 3900 4500 2800
+	4500 2800 4500 3900
 Wire Wire Line
 	4900 4100 5100 4100
 Wire Wire Line
@@ -341,81 +341,47 @@ Wire Wire Line
 $Comp
 L D D1
 U 1 1 57E456DB
-P 8750 2200
-F 0 "D1" H 8850 2300 50  0000 C CNN
-F 1 "1N4148" H 8600 2300 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 8750 2200 50  0001 C CNN
-F 3 "" H 8750 2200 50  0000 C CNN
-	1    8750 2200
+P 8500 2000
+F 0 "D1" H 8500 2100 50  0000 C CNN
+F 1 "1N4148" H 8500 2200 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 8500 2000 50  0001 C CNN
+F 3 "" H 8500 2000 50  0000 C CNN
+	1    8500 2000
 	-1   0    0    -1  
 $EndComp
 $Comp
 L D D2
 U 1 1 57E45729
-P 8750 2400
-F 0 "D2" H 8650 2300 50  0000 C CNN
-F 1 "1N4148" H 8900 2300 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 8750 2400 50  0001 C CNN
-F 3 "" H 8750 2400 50  0000 C CNN
-	1    8750 2400
-	1    0    0    1   
+P 8500 2300
+F 0 "D2" H 8500 2200 50  0000 C CNN
+F 1 "1N4148" H 8500 2100 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 8500 2300 50  0001 C CNN
+F 3 "" H 8500 2300 50  0000 C CNN
+	1    8500 2300
+	-1   0    0    -1  
 $EndComp
 $Comp
 L D D3
 U 1 1 57E45775
-P 8750 2600
-F 0 "D3" H 8650 2500 50  0000 C CNN
-F 1 "1N4148" H 8900 2500 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 8750 2600 50  0001 C CNN
-F 3 "" H 8750 2600 50  0000 C CNN
-	1    8750 2600
-	1    0    0    1   
+P 8900 2300
+F 0 "D3" H 8900 2200 50  0000 C CNN
+F 1 "1N4148" H 8900 2100 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 8900 2300 50  0001 C CNN
+F 3 "" H 8900 2300 50  0000 C CNN
+	1    8900 2300
+	-1   0    0    -1  
 $EndComp
 $Comp
 L D D4
 U 1 1 57E457DF
-P 8750 2800
-F 0 "D4" H 8850 2900 50  0000 C CNN
-F 1 "1N4148" H 8600 2900 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 8750 2800 50  0001 C CNN
-F 3 "" H 8750 2800 50  0000 C CNN
-	1    8750 2800
+P 8900 2000
+F 0 "D4" H 8900 2100 50  0000 C CNN
+F 1 "1N4148" H 8900 2200 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 8900 2000 50  0001 C CNN
+F 3 "" H 8900 2000 50  0000 C CNN
+	1    8900 2000
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	8900 2200 9000 2200
-Wire Wire Line
-	9000 2200 9000 2400
-Wire Wire Line
-	9000 2400 8900 2400
-Wire Wire Line
-	8900 2600 9000 2600
-Wire Wire Line
-	9000 2600 9000 2800
-Wire Wire Line
-	9000 2800 8900 2800
-Wire Wire Line
-	9700 2300 9000 2300
-Connection ~ 9000 2300
-Wire Wire Line
-	8600 2200 8500 2200
-Wire Wire Line
-	8500 2200 8500 2800
-Wire Wire Line
-	8500 2800 8600 2800
-Wire Wire Line
-	8600 2400 8600 2600
-Wire Wire Line
-	9400 2500 8600 2500
-Connection ~ 8600 2500
-Connection ~ 9400 2500
-Wire Wire Line
-	8500 2500 8200 2500
-Connection ~ 8200 2500
-Connection ~ 8500 2500
-Wire Wire Line
-	9000 2700 9700 2700
-Connection ~ 9000 2700
 $Comp
 L CONN_01X02 P2
 U 1 1 57E45DDB
@@ -478,4 +444,38 @@ Connection ~ 4300 2800
 Wire Wire Line
 	5000 2400 5000 1800
 Connection ~ 3900 2400
+Wire Wire Line
+	9050 2000 9300 2000
+Wire Wire Line
+	9050 2300 9300 2300
+Wire Wire Line
+	8650 2300 8750 2300
+Wire Wire Line
+	8650 2000 8750 2000
+Wire Wire Line
+	8350 2000 8300 2000
+Wire Wire Line
+	8300 2300 8350 2300
+Wire Wire Line
+	8300 2000 8300 2300
+Wire Wire Line
+	8300 2150 8200 2150
+Connection ~ 8200 2150
+Connection ~ 8300 2150
+Wire Wire Line
+	9300 2300 9300 2000
+Wire Wire Line
+	9300 2150 9400 2150
+Connection ~ 9400 2150
+Connection ~ 9300 2150
+Wire Wire Line
+	9550 1700 8700 1700
+Wire Wire Line
+	8700 1700 8700 2000
+Connection ~ 8700 2000
+Wire Wire Line
+	8700 2300 8700 2550
+Wire Wire Line
+	8700 2550 9550 2550
+Connection ~ 8700 2300
 $EndSCHEMATC
